@@ -13,13 +13,35 @@ Algoritmo Vida_de_personas
     Para i Desde 1 Hasta n Con Paso 1 Hacer
         Escribir "Ingrese el año de nacimiento de la persona ", m
         Leer aNacimientos[i]
+		Si aNacimientos[i]<0 Entonces
+			Escribir "Año no disponible"
+			Repetir
+				Escribir "Ingrese el año de nacimiento de la persona ", m
+				Leer aNacimientos[i]
+			Hasta Que aNacimientos[i]>=0
+		FinSi
+		
         Escribir "Ingrese el año de fallecimiento de la persona ", m
         Leer aFallecimientos[i]
+		Si aFallecimientos[i]-aNacimientos[i]<0 Entonces
+			Escribir "Año no disponible"
+			Repetir
+				Escribir "Ingrese el año de fallecimiento de la persona ", m
+				Leer aFallecimientos[i]
+			Hasta Que aFallecimientos[i]>=0
+		FinSi
 		m <- m + 1
     Fin Para
     
     Escribir "Ingrese el año que desea consultar"
     Leer añoConsulta
+	Si añoConsulta<0 Entonces
+		Escribir "Año no disponible"
+		Repetir
+			Leer añoConsulta
+		Hasta Que añoConsulta>=0
+	FinSi
+	
 	
     pv = 0
     pf = 0
