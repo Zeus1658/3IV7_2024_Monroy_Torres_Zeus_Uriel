@@ -7,13 +7,42 @@ Algoritmo CobroEstacionamiento
 	//entrada de datos
 	Escribir "Ingrese la hora de entrada (formato de 24 horas)"
 	Leer horaentrada
+	Si horaentrada<0 Entonces
+		Repetir
+			Escribir "hora no existente"
+			Escribir "Ingrese la hora de entrada (formato de 24 horas)"
+			Leer horaentrada
+		Hasta Que horaentrada>=0
+	Fin Si
 	Escribir "Ingrese los minutos de entrada (formato de 0 a 59)"
 	Leer minutoentrada
+	Si minutoentrada<0 Entonces
+		Repetir
+			Escribir "minuto no existente"
+			Escribir "Ingrese los minutos de entrada (formato de 0 a 59)"
+			Leer minutoentrada
+		Hasta Que minutoentrada>=0
+	Fin Si
 	
 	Escribir "Ingrese la hora de salida (formato de 24 horas)"
 	Leer horasalida
+	Si horasalida<0 Entonces
+		Repetir
+			Escribir "hora no existente"
+			Escribir "Ingrese la hora de salida (formato de 24 horas)"
+			Leer horasalida
+		Hasta Que horasalida>=0
+	Fin Si
 	Escribir "Ingrese los minutos de salida (formato de 0 a 59)"
 	Leer minutosalida
+	Si minutosalida<0 Entonces
+		Repetir
+			Escribir "minuto no existente"
+			Escribir "Ingrese los minutos de salida (formato de 0 a 59)"
+			Leer minutosalida
+		Hasta Que minutosalida>=0
+	Fin Si
+	
 	
 	//Proceso 
 	//Calcular el tiempo total en minutos
