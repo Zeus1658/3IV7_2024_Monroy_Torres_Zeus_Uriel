@@ -1,21 +1,21 @@
-Algoritmo F髍mula_General
+Algoritmo F贸rmula_General
 	Definir a, b, c, resultado1, resultado2 Como Real
 	
-	Escribir "Ingrese el valor de A de la f髍mula"
+	Escribir "Ingrese el valor de A de la f贸rmula"
 	Leer a
-	Escribir "Ingrese el valor de B de la f髍mula"
+	Escribir "Ingrese el valor de B de la f贸rmula"
 	Leer b
-	Escribir "Ingrese el valor de C de la f髍mula"
+	Escribir "Ingrese el valor de C de la f贸rmula"
 	Leer c
 	ecuacion = b^2-4*a*c
 	Si ecuacion < 0 Entonces
-		Escribir "Ecuaci髇 sin soluci髇"
+		Escribir "Ecuaci贸n sin soluci贸n"
 	FinSi
 	
 	resultado1 = (-b+raiz(ecuacion))/2*a
 	resultado2 = (-b-raiz(ecuacion))/2*a
 	Si resultado1 = resultado2 Entonces
-		Escribir "La 鷑ica soluci髇 es: ", resultado1
+		Escribir "La 煤nica soluci贸n es: ", resultado1
 	SiNo
 		Escribir "Los resultados son: X1= ",resultado1, ", X2= ",resultado2
 	FinSi

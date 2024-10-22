@@ -1,7 +1,7 @@
 Algoritmo sin_titulo
 	pos = 0
 	neg = 0
-	Escribir "Ingresa la cantidad de números a leer"
+	Escribir "Ingresa la cantidad de nÃºmeros a leer"
 	Leer n
 	Escribir "Ingrese los valores"
 	Repetir
@@ -13,6 +13,6 @@ Algoritmo sin_titulo
 		Fin Si
 		n = n - 1
 	Hasta Que n = 0
-	Escribir "La cantidad de números positivos es de: ", pos
-	Escribir "La cantidad de números negativos es de: ", neg
+	Escribir "La cantidad de nÃºmeros positivos es de: ", pos
+	Escribir "La cantidad de nÃºmeros negativos es de: ", neg
 FinAlgoritmo
