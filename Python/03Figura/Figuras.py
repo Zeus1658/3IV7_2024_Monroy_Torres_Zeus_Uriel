@@ -42,7 +42,7 @@ elif opcion == "B":
     lado1 = float(input("Ingrese el lado 1\n"))
     lado2 = float(input("Ingrese el lado 2\n"))
     lado3 = float(input("Ingrese el lado 3\n"))
-    area, perimetro = triangulo(base, altura, lado1, lado2, lado3)
+    area, perimetro = triangulo(base, altura. lado1. lado2, lado3)
     print("El área es de:", area)
     print("El perimetro es de:", perimetro)
 
