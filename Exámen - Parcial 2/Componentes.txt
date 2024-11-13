@@ -1,0 +1,35 @@
+Procesador, Intel Core i9, 13900K, Alto, 450 Ohm, 70 C, 125W, 36 MB
+Procesador, AMD Ryzen 9, 7950X, Alto, 400 Ohm, 75 C, 170W, 64 MB
+Procesador, Apple, M1 Max, Medio, 500 Ohm, 60 C, 30W, 24 MB
+Procesador, Intel Core i7, 12700K, Medio, 480 Ohm, 68 C, 125W, 25 MB
+Procesador, AMD Ryzen 5, 5600X, Medio, 470 Ohm, 65 C, 65W, 32 MB
+Tarjeta Gráfica, NVIDIA, GeForce RTX 4090, Alto, 750 Ohm, 80 C, 450W, 24 GB GDDR6X
+Tarjeta Gráfica, AMD, Radeon RX 6900 XT, Alto, 700 Ohm, 78 C, 300W, 16 GB GDDR6
+Tarjeta Gráfica, NVIDIA, GeForce RTX 3080, Medio, 720 Ohm, 75 C, 320W, 10 GB GDDR6X
+Tarjeta Gráfica, AMD, Radeon RX 6700 XT, Medio, 690 Ohm, 73 C, 230W, 12 GB GDDR6
+Tarjeta Gráfica, NVIDIA, GTX 1660 Super, Bajo, 650 Ohm, 72 C, 125W, 6 GB GDDR6
+Memoria RAM, Corsair, Vengeance RGB Pro, Alto, 50 Ohm, 35 C, 35W, 16-18-18-36
+Memoria RAM, G.Skill, Trident Z Neo, Alto, 50 Ohm, 33 C, 40W, 16-19-19-39
+Memoria RAM, Kingston, Fury Beast, Medio, 60 Ohm, 37 C, 30W, 15-17-17-36
+Memoria RAM, Crucial, Ballistix, Medio, 60 Ohm, 36 C, 30W, 15-17-17-36
+Memoria RAM, HyperX, Predator, Alto, 50 Ohm, 34 C, 35W, 16-19-19-39
+Tarjeta Madre, ASUS, ROG Strix Z690-E, Alto, 100 Ohm, 40 C, 100W, DDR5 6400 MHz
+Tarjeta Madre, MSI, MPG B550 Gaming Edge, Medio, 120 Ohm, 42 C, 80W, DDR4 4400 MHz
+Tarjeta Madre, Gigabyte, AORUS X570 Elite, Medio, 110 Ohm, 41 C, 90W, DDR4 5100 MHz
+Tarjeta Madre, ASRock, Z590 Extreme, Alto, 90 Ohm, 39 C, 100W, DDR4 4800 MHz
+Tarjeta Madre, Intel, NUC 10 Extreme, Bajo, 150 Ohm, 50 C, 35W, DDR4 2666 MHz
+Fuente de Poder, Corsair, RMx Series RM850x, Alto, 5 Ohm, 45 C, 850W, N/A
+Fuente de Poder, EVGA, SuperNOVA 650 G5, Medio, 7 Ohm, 47 C, 650W, N/A
+Fuente de Poder, Seasonic, Focus GX-550, Bajo, 8 Ohm, 50 C, 550W, N/A
+Fuente de Poder, Thermaltake, Smart RGB 700W, Medio, 7.5 Ohm, 48 C, 700W, N/A
+Fuente de Poder, Be Quiet!, Dark Power Pro 12, Alto, 3 Ohm, 42 C, 1200W, N/A
+Memoria, WD, Blue 1TB, Medio, 120 Ohm, 40 C, 4W, N/A
+Memoria, Seagate, Barracuda 2TB, Alto, 100 Ohm, 38 C, 6W, N/A
+Memoria, Samsung, 970 EVO Plus 500GB, Alto, 80 Ohm, 36 C, 8W, N/A
+Memoria, Kingston, A2000 1TB, Medio, 90 Ohm, 37 C, 6W, N/A
+Memoria, Crucial, MX500 250GB, Bajo, 140 Ohm, 45 C, 4W, N/A
+Gabinete, NZXT, H510, Medio, 60 Ohm, 30 C, 10W, N/A
+Gabinete, Corsair, 4000D Airflow, Alto, 50 Ohm, 28 C, 15W, N/A
+Gabinete, Phanteks, Eclipse P400A, Medio, 60 Ohm, 30 C, 10W, N/A
+Gabinete, Fractal Design, Meshify C, Alto, 50 Ohm, 29 C, 10W, N/A
+Gabinete, Thermaltake, Core P3, Bajo, 80 Ohm, 35 C, 20W, N/A

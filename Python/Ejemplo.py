@@ -1,6 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
-from tkinter import messagebox
+from tkinter import *
 
 #Botón para una función de saludar
 def mostrar_saludo():
@@ -26,8 +25,11 @@ ventana = tk.Tk()
 ventana.title("Ejemplo de Interfaz en Python")
 ventana.geometry("800x600")
 
+entrada_nombre = tk.Entry(ventana)
+entrada_nombre.pack()
+
 #Etiquetas
-etiqueta_bienvenida = tk.Label(ventana, text = "bienvenido a tu primer interfaz", font = ("Arial", 16))
+etiqueta_bienvenida = tk.Label(ventana, text = "Ingresa tu nombre", font = ("Arial", 16))
 etiqueta_bienvenida.pack(pady = 10)
 
 #Botón para mostrar el saludo
