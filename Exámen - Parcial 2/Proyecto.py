@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox, simpledialog, ttk
 import os
 
-archivo = 'Componentes.txt'
+archivo = 'Exámen - parcial 2/Componentes.txt'
 componentes = []
 
 def cargar_datos():
@@ -58,7 +58,7 @@ def registrar_componente():
     texto.configure(bg="gray30", font = texto_config, fg = 'orange2')
     texto.place(x = 100, y = 20)    
 
-    img = tk.PhotoImage(file = 'Registro.png')
+    img = tk.PhotoImage(file = 'Exámen - parcial 2/Registro.png')
     tamaño_img = img.subsample(2,2)
     lbl_img = tk.Label(registro, image = tamaño_img, bg = 'gray30')
     lbl_img.place(x = 350, y = 150)
@@ -380,7 +380,7 @@ def menu():
     texto.configure(bg = "gray15", font = texto_config, fg = 'orange2')
     texto.place(x = 900, y = 100)
 
-    img = tk.PhotoImage(file = 'Inicio.png')
+    img = tk.PhotoImage(file = 'Exámen - parcial 2/Inicio.png')
     lbl_img = tk.Label(ventana, image = img, bg = 'gray15')
     lbl_img.place(x = 800, y = 200)
 
