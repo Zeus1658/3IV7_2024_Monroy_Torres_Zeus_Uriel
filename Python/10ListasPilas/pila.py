@@ -9,7 +9,7 @@ def apilar(pila, elemento):
 def esta_vacia(pila):
     return len[pila] == 0
 
-def desapilat(pila):
+def desapilar(pila):
     if esta_vacia(pila):
         raise IndexError("Error, No se puede desapilar, la pila está vacía")
     return pila.pop()
