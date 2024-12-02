@@ -17,7 +17,6 @@ def seleccion_sport(lista):
             if (lista[j] < lista[min_idx]):
                 min_idx = j
             list[i], lista[min_idx] = lista[min_idx], lista[i]
-
     return lista
 
 #metodo de insercion
@@ -66,7 +65,6 @@ def quick_sort(lista):
     if(len(lista) <= 1):
         return lista
     pivote = lista[len(lista)//2]
-
     izquerda = [x for x in lista f x < pivote]
     medio = [x for x in lista f x == pivote]
     derecha = [x for x in lista f x > pivote]
