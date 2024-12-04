@@ -66,6 +66,7 @@ def merge(lista):
             k += 1
     return lista
 
+#quick sort
 def quick_sort(lista):
     if len(lista) <= 1:
         return lista
@@ -90,12 +91,6 @@ def menu():
     texto_config1 = ('Arial', 15, 'bold')
     numeros = tk.Entry(ventana, bg='white', fg='black', borderwidth=0, width=30, font=texto_config1)
     numeros.pack()
-
-    style = ttk.Style()
-    style.configure("TMenubutton", background="white", foreground="black", font=('Arial', 12, 'bold'))
-    style.map("TMenubutton",
-              background=[("active", "black")],
-              foreground=[("active", "white")])
 
     metodo_seleccionado = tk.StringVar(value="Seleccione un método")
     metodos = ["Burbuja", "Selección", "Inserción", "Merge Sort", "Quick Sort"]
